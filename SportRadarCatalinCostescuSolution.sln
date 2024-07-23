@@ -5,7 +5,12 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballWorldCup", "FootballWorldCup\FootballWorldCup.csproj", "{3BA1D3EA-F7CC-4861-AB7D-40424009180D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballWorldCup.Tests", "FootballWorldCup.Test\FootballWorldCup.Tests.csproj", "{D3F17129-5A8E-4423-8656-34C05C344199}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballWorldCup.Tests", "FootballWorldCup.Test\FootballWorldCup.Tests.csproj", "{D3F17129-5A8E-4423-8656-34C05C344199}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{FB068CD4-9E5B-44FA-9BAC-343488BEADD1}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
